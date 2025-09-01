@@ -15,8 +15,9 @@ tags:
 课题组的实验设备和文献资源继续为他们提供支持。在这段相对独立的工作期，三人共同承担着从理解意见、制定修改方案到最终修订文稿及撰写回复信的主要责任。讨论板上的便签记录着待解决的要点和讨论结论。
 
 多留的这两周，成为他们修改稿提交前的关键期。实验室里，键盘敲击声、低声讨论和翻阅资料的声音是常态。他们的目标明确：协力打磨这份合作成果，以严谨和完善的修改稿回应学术期刊的审阅。当最终完成修改并提交系统后，他们才结束了这个特别的暑期留校期。
-![](img/in-post/实验照片1.jpg)
-![](img/in-post/实验照片2.jpg)
-![](img/in-post/实验照片3.jpg)
-![](img/in-post/实验照片4.jpg)
+![实验照片1](https://github.com/user-attachments/assets/d4c1e81e-a65a-45ef-9223-98dc15bd4c27)
+![实验照片2](https://github.com/user-attachments/assets/9bb97249-79fa-464b-a167-6670c6f60248)
+![实验照片3](https://github.com/user-attachments/assets/06f77dc1-8a9d-44b0-a35f-e306cd3753da)
+![实验照片4](https://github.com/user-attachments/assets/55d9c65f-94fb-481f-97ac-d715bb0730b7)
+
 *文字作者：李毓康 图片作者：罗皓俊*
