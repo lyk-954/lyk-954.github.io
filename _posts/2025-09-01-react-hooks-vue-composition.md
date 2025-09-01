@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "首届全国"AI+能源"大学生科技创新竞赛在上海启动"
 author: "Hux"
