@@ -1,17 +1,12 @@
- ---
+---
 layout: post
 title: "首届全国"AI+能源"大学生科技创新竞赛在上海启动"
-subtitle: "Thinking in React vs. Thinking in Vue"
 author: "Hux"
 header-style: text
 tags:
   - 知乎
-  - Web
-  - React
+  - Meta
 ---
-
-
-首届全国"AI+能源"大学生科技创新竞赛在上海启动
 
 为响应国家"双碳"战略和数字中国建设需求，上海交通大学联合清华大学、浙江大学等多所高校，共同启动首届全国"AI+能源"大学生科技创新竞赛。该赛事旨在搭建**产学研用一体化创新平台**，为国家能源绿色转型与智能化发展提供人才支撑。
 
