@@ -1,52 +1,15 @@
 ---
 layout: post
-title: "把「终端下的 Vim」作为 macOS Finder 的打开方式"
+title: "华东理工大学"酷连"团队：为充电枪降温，00后本科生研发散热黑科技"
 subtitle: 'Open file with terminal Vim from the macOS Finder'
-author: "Hux"
+author: "华东理工大学学生投稿"
 header-style: text
 tags:
   - Vim
 ---
 
-我的日常主力编辑器主要是：
+华东理工大学一群00后本科生自主研发的**电连接器散热技术**，在2025年中国国际大学生创新大赛（上海赛区）中以小组第一的成绩摘得市赛金奖。该技术已通过初创公司获得了超过**200万元的初期意向订单**。
 
-- (Neo)Vim
-- Spacemacs (via Emacs-plus)
-- Visual Studio Code
-- IntelliJ IDEA
+应用物理学专业学生许诺在2023年春天看到多起电动车充电引发的火灾新闻后，萌生了用所学知识解决行业安全隐患的想法。在物理学院张孟老师支持下，团队跑遍了长三角地区数十家整车厂与充电设备企业，精准把握"充电慢、接口热、散热难"的行业痛点。
 
-这里面只有 (Neo)Vim 是存活在终端中的（我并不在终端内使用 Emacs），而由于我日常主要是从终端（via iTerm）来使用电脑，所以会把他们都加入到 `$PATH` 里以方便从终端中唤起，VSCode 和 IDEA 都有一键加入的功能， Emacs 我在 `~/.zshrc` 中放了一个 `alias emacs='open -n -a Emacs.app .'` 解决。
-
-但是，偶尔也会有从 Finder 中打开文件的需求，这时候如果通常会打开拓展名所绑定的 `Open with...` 应用，在大部分时候我的默认绑定是 VSCode，但是今天心血来潮觉得有没有办法直接打开 Vim 呢？搜了一下还真有基于 AppleScript 的解决方案：
-
-1. 打开 `Automator.app`
-2. 选择 `New Document`
-3. 找到 `Run AppleScript` 的 action 双击添加
-4. 编写 AppleScript 脚本来唤起终端与 vim （下文给出了我的脚本你可以直接稍作修改使用）
-5. 保存为 `Applications/iTermVim.app` （你可以自己随便取）
-6. 找到你想要以这种方式打开的文件，比如 `<随便>.markdown`，`⌘ i` 获取信息然后修改 `Open with` 为这个应用然后 `Change All...`
-
-效果超爽 ;)
-
-```applescript
-on run {input, parameters}
-  set filename to POSIX path of input
-  set cmd to "clear; cd `dirname " & filename & "`;vim " & quote & filename & quote
-  tell application "iTerm"
-    activate
-    tell the current window
-      create tab with default profile
-      tell the current session
-        write text cmd
-      end tell
-    end tell
-  end tell
-end run
-```
-
-我这里的代码是采取是用 `iTerm` 与唤起 `vim`、窗口置前、在新窗口中打开、同时 `cd` 到目录。你也可以改成用 macOS 自带的 `Terminal.app`、在新窗口而非新 tab 打开、应用不同的 profile、或是执行其他 executable 等……任你发挥啦。
-
-### References
-
-- [Open file in iTerm vim for MacOS Sierra](https://gist.github.com/charlietran/43639b0f4e0a01c7c20df8f1929b76f2)
-- [Open file in Terminal Vim on OSX](https://bl.ocks.org/napcs/2d8376e941133ccfad63e33bf1b1b60c)
+团队采用的**相变材料**在成本和散热效果上比传统的风冷和液冷方式更具优势。他们成功打造出集成三大核心技术的"两相制冷电连接器"，能将连接器工作温度显著降低近30℃，同时将充电功率提升高达60%，目前已申请4项核心知识产权。
