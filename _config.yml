@@ -1,9 +1,9 @@
 # Site settings
-title: 福建大学生科研创新网
-SEOTitle:  福建大学生科研创新网 | Fujian Undergraduate Research and Innovation Network
+title: 南方大学生科研创新网
+SEOTitle:  南方大学生科研创新网 | Southside Undergraduate Research and Innovation Network
 header-img: img/home-bg.jpg
 email: 15759185737@163.com
-description: "这里是福建大学生科研创新网，与你一起发现更大的世界 "
+description: "这里是南方大学生科研创新网，与你一起发现更大的世界 "
 keyword: "大学生,科研创新"
 url: "https://huangxuan.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
