@@ -19,5 +19,4 @@ tags:
 ![](img/in-post/实验照片2.jpg)
 ![](img/in-post/实验照片3.jpg)
 ![](img/in-post/实验照片4.jpg)
-![](https://picx.zhimg.com/50/v2-9557bd0507ca70f7afd075730f31a2e3_720w.jpg?source=1940ef5c)
 *文字作者：李毓康 图片作者：罗皓俊*
